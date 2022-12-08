@@ -26,3 +26,11 @@ let f = "20";
 let g = e + f;
 
 console.log(g); // Adding a string plus a number results in a string concatenation.
+
+let h = "100";
+
+let i = "200";
+
+let j = h * i;
+
+console.log(j); // JS will apply math functions to strings for division, multiplication, and subtraction, but not addition (you get the string concatentation from above).
