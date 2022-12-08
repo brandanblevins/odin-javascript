@@ -8,3 +8,7 @@ let b = 240;
 let y = a + b;
 
 console.log(y);
+
+let c = 500 + 250 * 4;
+
+console.log(c);
