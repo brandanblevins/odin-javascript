@@ -17,3 +17,11 @@ alert(9 * a);
 let b = 7 * a;
 
 alert(b);
+
+const max = 57;
+
+let actual = max - 13;
+
+let percentage = actual / max;
+
+alert(percentage);
