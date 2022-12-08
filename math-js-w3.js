@@ -34,3 +34,8 @@ let i = "200";
 let j = h * i;
 
 console.log(j); // JS will apply math functions to strings for division, multiplication, and subtraction, but not addition (you get the string concatentation from above).
+
+let k = 200 / "Banana";
+isNaN(k);
+
+let l = new Number(123);
