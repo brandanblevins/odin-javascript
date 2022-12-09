@@ -12,3 +12,13 @@ let text3 = "Apple, Banana, Pear, Orange";
 let part3 = text3.slice(6);
 
 console.log(part3);
+
+let text4 = "Apple, Banana, Pear, Orange";
+let part4 = text4.slice(-14);
+
+console.log(part4);
+
+let str = "Apple, Banana, Pear, Orange";
+let part5 = str.substring(5, 12);
+
+console.log(part5);
