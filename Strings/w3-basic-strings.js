@@ -57,3 +57,8 @@ let text9 = "       I am putting white spaces on either side of this statement. 
 let text10 = text9.trim();
 
 console.log(text10);
+
+let text11 = "Hello hello hello.";
+let char = text11.charAt(8);
+
+console.log(char);
