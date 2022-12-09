@@ -8,3 +8,11 @@ console.log(result1);
 
 console.log('U' > 'C'); // should be true
 console.log('Banana' > 'Bark'); //should be false
+
+let a = 0;
+console.log(Boolean(a)); // false
+
+let b = "0";
+console.log(Boolean(b)); // true
+
+console.log(a == b); // true!
