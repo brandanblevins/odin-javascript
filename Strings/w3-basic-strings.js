@@ -47,3 +47,8 @@ let text5 = "i am typing this in all lowercase.";
 let text6 = text5.toUpperCase();
 
 console.log(text6);
+
+let text7 = "I AM TYPING THIS IN ALL UPPERCASE.";
+let text8 = text7.toLowerCase();
+
+console.log(text8);
