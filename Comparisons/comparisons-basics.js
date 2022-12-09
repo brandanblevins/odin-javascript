@@ -28,10 +28,10 @@ console.log(0 === false); // false, because the types are different
 
 // Test
 
-console.log(5 > 4); // My guess: true
-console.log("apple" > "pineapple"); // My guess: true
-console.log("2" > "12"); // My guess: false
-console.log(undefined == null); // My guess: false
-console.log(undefined === null); // My guess: false
-console.log(null == "\n0\n"); // My guess: true
-console.log(null === +"\n0\n"); // My guess: false
+console.log(5 > 4); // My guess: true Actual: true
+console.log("apple" > "pineapple"); // My guess: true Actual: false
+console.log("2" > "12"); // My guess: false Actual: true
+console.log(undefined == null); // My guess: false Actual: true
+console.log(undefined === null); // My guess: false Actual: false
+console.log(null == "\n0\n"); // My guess: true Actual: false
+console.log(null === +"\n0\n"); // My guess: false Actual: false
