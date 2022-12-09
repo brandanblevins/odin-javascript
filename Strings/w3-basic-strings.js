@@ -37,3 +37,8 @@ let replaceText2 = "Have a nice day!";
 let newText2 = replaceText2.replace("nice", "bad");
 
 console.log(newText2);
+
+let replaceText3 = "I love DOGS. DOGS are very easy to love. I would like more DOGS.";
+replaceText3 = replaceText3.replaceAll("DOGS", "cats");
+
+console.log(replaceText3);
