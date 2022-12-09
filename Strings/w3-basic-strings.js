@@ -32,3 +32,8 @@ let replaceText = "Please visit this store!";
 let newText = replaceText.replace("this store", "Sprouts");
 
 console.log(newText);
+
+let replaceText2 = "Have a nice day!";
+let newText2 = replaceText2.replace("nice", "bad");
+
+console.log(newText2);
