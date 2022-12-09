@@ -17,3 +17,8 @@ console.log(bigmouth);
 const name = `Chris`;
 const greeting = `Hello, ${name}`;
 console.log(greeting); // "Hello, Chris"
+
+const one = "Hello, ";
+const two = "how are you?";
+const joined = `${one}${two}`;
+console.log(joined); // "Hello, how are you?"
