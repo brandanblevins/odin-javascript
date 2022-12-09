@@ -22,3 +22,7 @@ const one = "Hello, ";
 const two = "how are you?";
 const joined = `${one}${two}`;
 console.log(joined); // "Hello, how are you?"
+
+const nameFront = "Front ";
+const number = 242;
+console.log(`${nameFront}${number}`); // "Front 242"
