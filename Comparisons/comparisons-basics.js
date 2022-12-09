@@ -16,3 +16,5 @@ let b = "0";
 console.log(Boolean(b)); // true
 
 console.log(a == b); // true!
+
+console.log(0 === false); // false, because the types are different
