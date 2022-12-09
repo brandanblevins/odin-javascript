@@ -22,3 +22,8 @@ let str = "Apple, Banana, Pear, Orange";
 let part5 = str.substring(5, 12);
 
 console.log(part5);
+
+let str2 = "Apple, Banana, Pear, Orange";
+let part6 = str2.substr(5, 4);
+
+console.log(part6);
