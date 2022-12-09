@@ -26,3 +26,11 @@ console.log(joined); // "Hello, how are you?"
 const nameFront = "Front ";
 const number = 242;
 console.log(`${nameFront}${number}`); // "Front 242"
+
+const myString = "123";
+const myNum = Number(myString);
+console.log(typeof myNum);
+
+const myNum2 = 123;
+const myString2 = myNum2.toString();
+console.log(typeof myString2);
