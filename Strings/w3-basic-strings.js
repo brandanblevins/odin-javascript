@@ -52,3 +52,8 @@ let text7 = "I AM TYPING THIS IN ALL UPPERCASE.";
 let text8 = text7.toLowerCase();
 
 console.log(text8);
+
+let text9 = "       I am putting white spaces on either side of this statement.      ";
+let text10 = text9.trim();
+
+console.log(text10);
