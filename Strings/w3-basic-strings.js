@@ -62,3 +62,8 @@ let text11 = "Hello hello hello.";
 let char = text11.charAt(8);
 
 console.log(char);
+
+let text12 = "Apple, Banana, Pear, Orange, Strawberry";
+let array1 = text12.split(",");
+
+console.log(array1);
