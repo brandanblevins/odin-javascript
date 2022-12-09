@@ -40,3 +40,12 @@ const score = 9;
 const highestScore = 10;
 const output = `I like the song ${song}. I gave it a score of ${(score / highestScore) * 100}%.`
 console.log(output); // "I like the song Fight the Youth. I gave it a score of 90%."
+
+const output2 = `I like the song.
+I gave it a score of 90%.`;
+console.log(output2);
+
+/*
+I like the song.
+I gave it a score of 90%.
+*/
