@@ -27,3 +27,8 @@ let str2 = "Apple, Banana, Pear, Orange";
 let part6 = str2.substr(5, 4);
 
 console.log(part6);
+
+let replaceText = "Please visit this store!";
+let newText = replaceText.replace("this store", "Sprouts");
+
+console.log(newText);
