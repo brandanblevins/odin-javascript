@@ -10,3 +10,6 @@ const dbl = "Double quotes.";
 
 console.log(sgl);
 console.log(dbl);
+
+const bigmouth = 'I\'ve got no right to take my place...';
+console.log(bigmouth);
