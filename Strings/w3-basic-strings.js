@@ -42,3 +42,8 @@ let replaceText3 = "I love DOGS. DOGS are very easy to love. I would like more D
 replaceText3 = replaceText3.replaceAll("DOGS", "cats");
 
 console.log(replaceText3);
+
+let text5 = "i am typing this in all lowercase.";
+let text6 = text5.toUpperCase();
+
+console.log(text6);
