@@ -13,3 +13,7 @@ console.log(dbl);
 
 const bigmouth = 'I\'ve got no right to take my place...';
 console.log(bigmouth);
+
+const name = `Chris`;
+const greeting = `Hello, ${name}`;
+console.log(greeting); // "Hello, Chris"
