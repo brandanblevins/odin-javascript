@@ -7,3 +7,10 @@ let hour = 9;
 if (hour < 10 || hour > 18) {
     console.log('The office is closed!');
 }
+
+let hour2 = 12;
+let isWeekend = true;
+
+if (hour2 < 9 || hour2 > 17 || isWeekend) {
+    console.log('The office is closed!');
+}
