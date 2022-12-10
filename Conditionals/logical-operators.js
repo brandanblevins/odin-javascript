@@ -20,3 +20,13 @@ let lastName = "";
 let nickName = "SuperCoder";
 
 console.log(firstName || lastName || nickName || "Anonymous"); // This should return 'SuperCoder'
+
+true || console.log("not printed");
+false || console.log("printed");
+
+let hour3 = 12;
+let minute = 30;
+
+if (hour3 == 12 && minute == 30) {
+    console.log('The time is 12:30.');
+}
