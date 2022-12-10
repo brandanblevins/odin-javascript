@@ -14,3 +14,9 @@ let isWeekend = true;
 if (hour2 < 9 || hour2 > 17 || isWeekend) {
     console.log('The office is closed!');
 }
+
+let firstName = "";
+let lastName = "";
+let nickName = "SuperCoder";
+
+console.log(firstName || lastName || nickName || "Anonymous"); // This should return 'SuperCoder'
