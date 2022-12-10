@@ -1,3 +1,16 @@
+//MDN example
+
+let cheese = 'Cheddar';
+
+if (cheese) {
+    console.log('Yay! Cheese available for making cheese on toast.');
+} else {
+    console.log('No cheese on toast for you today.');
+}
+
+
+// First examples below.
+
 if (1 || 0) { // Works just like if( true || false )
     console.log('truthy!');
 }
