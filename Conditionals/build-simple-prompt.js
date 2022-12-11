@@ -62,3 +62,35 @@ if (company == 'ECMAScript') {
 </body>
 
 </html> */
+
+
+// Learn about the 'switch' statement
+
+// Set the current day of the week to a variable, with 0 being Sunday and 6 being Saturday
+const day = new Date().getDay();
+
+switch (day) {
+    case 0:
+        alert("It's Sunday, time to relax!");
+        break;
+    case 1:
+        alert("Happy Monday!");
+        break;
+    case 2:
+        alert("It's Tuesday. You got this!");
+        break;
+    case 3:
+        alert("Hump day already!");
+        break;
+    case 4:
+        alert("Just one more day 'til the weekend!");
+        break;
+    case 5:
+        alert("Happy Friday!");
+        break;
+    case 6:
+        alert("Have a wonderful Saturday!");
+        break;
+    default:
+        alert("Something went horribly wrong...");
+}
