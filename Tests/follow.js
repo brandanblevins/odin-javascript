@@ -99,7 +99,7 @@ let birthYear = 1948;
 
 const age = thisYear - birthYear;
 
-const greeting = "Hello, " + firstName + " " + lastName + "! You are " + age + " years old!";
+const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + age + " years old.";
 
 console.log(greeting);
 
