@@ -33,10 +33,32 @@ alert(message);
 
 If the visitor enters “ECMAScript”, then output “Right!”, otherwise – output: “You don’t know? ECMAScript!” */
 
-let question = prompt('What is the "official" name of JavaScript?', '');
+let company = prompt('What is the "official" name of JavaScript?', '');
 
 if (company == 'ECMAScript') {
     alert('Right!');
 } else {
     alert('You don\'t know? ECMAScript!');
 }
+
+// The answer (mine still works)
+/* <!DOCTYPE html>
+<html>
+
+<body>
+  <script>
+    'use strict';
+
+    let value = prompt('What is the "official" name of JavaScript?', '');
+
+    if (value == 'ECMAScript') {
+      alert('Right!');
+    } else {
+      alert("You don't know? ECMAScript!");
+    }
+  </script>
+
+
+</body>
+
+</html> */
