@@ -20,7 +20,7 @@ if (b === 66) {
 }
 console.log("\n");
 
-if (c === 1) {
+if (c === 1.25) {
     console.log("'c' is correct!")
 } else {
     console.log(`'c' is incorrect, got ${c}, expected 1`)
@@ -34,7 +34,7 @@ if (d === -8) {
 }
 console.log("\n");
 
-if (e === 68) {
+if (e === 68.25) {
     console.log("'e' is correct!")
     console.log("\n Congrats! You've solved them all, you may move onto the next lesson")
 } else {
