@@ -25,3 +25,18 @@ let message = (age2 < 3) ? 'Hi, baby!' :
     'What an unusual age!';
 
 alert(message);
+
+// Test
+
+// Question
+/* Using the if..else construct, write the code which asks: ‘What is the “official” name of JavaScript?’
+
+If the visitor enters “ECMAScript”, then output “Right!”, otherwise – output: “You don’t know? ECMAScript!” */
+
+let question = prompt('What is the "official" name of JavaScript?', '');
+
+if (company == 'ECMAScript') {
+    alert('Right!');
+} else {
+    alert('You don\'t know? ECMAScript!');
+}
