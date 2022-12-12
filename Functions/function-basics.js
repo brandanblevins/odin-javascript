@@ -41,3 +41,8 @@ function showMessage4(from, text = "no text given") {
 }
 
 showMessage4("Ann"); // Ann: no text given
+
+/* function showMessage(from, text = anotherFunction()) {
+  // anotherFunction() only executed if no text given
+  // its result becomes the value of text
+} */
