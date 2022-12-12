@@ -1,7 +1,9 @@
-function multiply(a, b) {
-    return (a * b);
+let newSum;
+
+function multiply(x, y) {
+    return (newSum = x * y);
 }
 
 multiply(4, 9);
 
-console.log(multiply);
+console.log(newSum);
