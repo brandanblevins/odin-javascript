@@ -3,6 +3,7 @@ function name(parameter1, parameter2, ... parameterN) {
  // body
 }
 
+// Basic function
 function showMessage() {
   console.log( 'Hello everyone!' );
 }
@@ -10,6 +11,7 @@ function showMessage() {
 showMessage();
 showMessage();
 
+// Function 2, commented out the point which is the variable being entirely local to the function.
 function showMessage2() {
   let message = "Hello, I'm JavaScript!"; // local variable
 
@@ -18,4 +20,4 @@ function showMessage2() {
 
 showMessage2(); // Hello, I'm JavaScript!
 
-console.log( message ); // <-- Error! The variable is local to the function
+// console.log( message ); // <-- Error! The variable is local to the function
