@@ -60,3 +60,12 @@ function showMessage5(text) {
 }
 
 showMessage5(); // empty message
+
+// Function 6, which shows a function can return a value back into the calling code as the result.
+
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result ); // 3
