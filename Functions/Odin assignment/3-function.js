@@ -5,6 +5,6 @@ function capitalize(string) {
     return (newWord = lower.charAt(0).toUpperCase() + lower.slice(1));
 }
 
-capitalize("ffDk");
+capitalize("dOg runs Fast!");
 
 console.log(newWord);
