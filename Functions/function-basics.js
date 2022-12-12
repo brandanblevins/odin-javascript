@@ -32,4 +32,12 @@ function showMessage3() {
   console.log(message);
 }
 
+// Function 4, which shows hot to set a default value for a parameter in the function declaration.
+
 showMessage3(); // Hello, John
+
+function showMessage(from, text = "no text given") {
+  alert( from + ": " + text );
+}
+
+showMessage("Ann"); // Ann: no text given
