@@ -4,6 +4,8 @@ function name(parameter1, parameter2, ... parameterN) {
 }
 
 function showMessage() {
-  alert( 'Hello everyone!' );
+  console.log( 'Hello everyone!' );
 }
 
+showMessage();
+showMessage();
