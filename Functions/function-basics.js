@@ -27,9 +27,9 @@ showMessage2(); // Hello, I'm JavaScript!
 
 let userName = 'John';
 
-function showMessage() {
+function showMessage3() {
   let message = 'Hello, ' + userName;
   console.log(message);
 }
 
-showMessage(); // Hello, John
+showMessage3(); // Hello, John
