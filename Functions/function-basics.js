@@ -46,3 +46,17 @@ showMessage4("Ann"); // Ann: no text given
   // anotherFunction() only executed if no text given
   // its result becomes the value of text
 } */
+
+// Function 5, which shows hot to assign default values for parameters at a later stage after the function declaration.
+
+function showMessage5(text) {
+  // ...
+
+  if (text === undefined) { // if the parameter is missing
+    text = 'empty message';
+  }
+
+  console.log(text);
+}
+
+showMessage5(); // empty message
