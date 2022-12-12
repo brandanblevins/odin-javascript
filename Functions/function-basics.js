@@ -68,4 +68,22 @@ function sum(a, b) {
 }
 
 let result = sum(1, 2);
-alert( result ); // 3
+console.log( result ); // 3
+
+// Function 7, iteration on Function 6.
+
+/* function checkAge(age) {
+  if (age >= 18) {
+    return true;
+  } else {
+    return confirm('Do you have permission from your parents?');
+  }
+}
+
+let age = prompt('How old are you?', 18);
+
+if ( checkAge(age) ) {
+  alert( 'Access granted' );
+} else {
+  alert( 'Access denied' );
+} */
