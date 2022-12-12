@@ -109,7 +109,12 @@ function checkAge(age) {
 // Otherwise it asks for a confirmation and returns its result.
 // Rewrite it, to perform the same, but without if, in a single line.
 
-function checkAge(age) {
+/* function checkAge(age) {
   age: > 18 || 'Did parents allow you?';
   }
-}
+} */
+
+// My answer to question 2 is wrong. Right answer below.
+/* function checkAge(age) {
+  return (age > 18) || confirm('Did parents allow you?');
+} */
