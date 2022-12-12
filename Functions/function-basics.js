@@ -110,9 +110,6 @@ function checkAge(age) {
 // Rewrite it, to perform the same, but without if, in a single line.
 
 function checkAge(age) {
-  if (age > 18) {
-    return true;
-  } else {
-    return confirm('Did parents allow you?');
+  age: > 18 || 'Did parents allow you?';
   }
 }
